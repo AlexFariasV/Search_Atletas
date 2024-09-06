@@ -19,6 +19,7 @@ function pesquisar() {
     let tags = "";
 
     // Itera sobre cada dado da lista de dados
+
     for (let dado of dados) {
         titulo = dado.titulo.toLowerCase()
         descricao = dado.descricao.toLowerCase()
@@ -29,7 +30,7 @@ function pesquisar() {
             resultados += `
             <div class="item-resultado">
                 <h2>
-                    <a href="#" target="_blank">${dado.titulo}</a>
+                    <a href="${dado.link}" target="_blank">${dado.titulo}</a>
                 </h2>
                 <p class="descricao-meta">${dado.descricao}</p>
                 <a href=${dado.link} target="_blank">Mais informações</a>
@@ -45,3 +46,23 @@ function pesquisar() {
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
 }
+
+// Observações do código a baixo
+
+// toLowerCase()
+//O que faz: Converte todos os caracteres de uma string para minúsculos.
+/*  Ex:
+    let palavra = "JavaScript"
+    console.log(palavra.toLowerCase())
+*/
+
+//includes()
+//O que faz: Verifica se uma string contém outra string como substring.
+/* 
+let frase = "Eu amo programar em JavaScript";
+let busca = "javascript";
+if (frase.toLowerCase().includes(busca.toLowerCase())) {
+  console.log("A frase contém a palavra 'javascript'");
+}
+*/
+
