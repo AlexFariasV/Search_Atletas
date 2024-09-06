@@ -1,5 +1,7 @@
 ## Desvendando Atletas - Imersão Dev com Google Gemini
 
+![image](https://github.com/user-attachments/assets/b862ace9-b0cd-45e2-b006-5542f07c16b8)
+
 **O que essa aplicação faz?**
 
 Imagine que você é um super fã de esportes e quer saber tudo sobre seu atleta favorito ou sobre uma modalidade específica. Essa aplicação é a sua nova melhor amiga! Ela te ajuda a encontrar todas as informações que você precisa de forma rápida e fácil. 
@@ -30,7 +32,7 @@ Se você é um desenvolvedor e quer ajudar a melhorar essa aplicação, fique à
 
 * **Dados:** Os dados dos atletas estão no arquivo `dados.js`. Você pode adicionar mais dados aí se quiser.
 * **Design:** O design da página está no arquivo `style.css`. Se você quiser mudar as cores ou a fonte, é só editar esse arquivo.
-* **Funcionalidades:** A lógica da pesquisa está no arquivo `app.js`. Se você quiser adicionar mais funcionalidades, é só editar esse arquivo.
+* **Funcionalidades:** A lógica da pesquisa está no arquivo `index.js`. Se você quiser adicionar mais funcionalidades, é só editar esse arquivo.
 
 **Dúvidas?**
 
